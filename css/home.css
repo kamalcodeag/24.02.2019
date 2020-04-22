@@ -1,0 +1,19 @@
+#home {
+  height: 850px;
+  background-image: url(../img/back.jpg);
+  background-size: cover;
+}
+#home .col-xl-2 a {
+  border: 2px solid #daa66f;
+  font-size: 25px;
+  text-decoration: none;
+}
+#home .col-xl-8 li {
+  font-size: 15px;
+}
+#home .col-xl-8 li:first-child {
+  border: 1px solid #daa66f;
+}
+#home .container {
+  height: 750px;
+}

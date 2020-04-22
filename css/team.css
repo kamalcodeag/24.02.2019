@@ -1,0 +1,37 @@
+#team .container-fluid {
+  height: 700px;
+  background-color: #2c2c2c;
+}
+#team .container-fluid .spec-box {
+  border: 1px solid #616060;
+  width: 264px;
+  height: 264px;
+}
+#team .container-fluid .spec-page {
+  background-color: #414141 !important;
+  border: none !important;
+  transition: all .3s ease-in-out;
+}
+#team .container-fluid .spec-page:hover {
+  background-color: #86ce23 !important;
+}
+#team #our-services .container-fluid {
+  height: 600px;
+  background-color: #202020;
+}
+#team #our-services .container-fluid h5 {
+  color: #daa66f;
+}
+#team #our-services .container-fluid .spec-circle-holder {
+  left: 101%;
+  bottom: 15%;
+  z-index: 1;
+}
+#team #our-services .container-fluid .spec-circle-holder .spec-circle {
+  width: 80px;
+  height: 80px;
+  border: 5px solid pink;
+}
+#team #our-services .container-fluid .spec-circle-holder .spec-circle i {
+  font-size: 30px;
+}

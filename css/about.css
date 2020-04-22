@@ -1,0 +1,53 @@
+#about {
+  height: 1200px;
+  background-color: #252525;
+}
+#about .spec-circle {
+  background-color: #daa66f;
+  border: 6px solid rgba(100, 100, 100, 0.3);
+  position: relative;
+  bottom: 30px;
+}
+#about .spec-i {
+  font-size: 35px;
+}
+#about .col-12 {
+  height: 250px;
+}
+#about .col-12 h3 {
+  position: relative;
+}
+#about .col-12 h3::after {
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  width: 100px;
+  height: 1px;
+  background-color: white;
+}
+#about .col-12 .spec-btn-l {
+  outline: none;
+  border: none;
+  border-radius: 0;
+  background-color: #daa66f;
+  transition: all .3s ease-in-out;
+}
+#about .col-12 .spec-btn-l:hover {
+  background-color: #6c757d;
+}
+#about .col-12 .spec-btn-r {
+  outline: none;
+  border: none;
+  border-radius: 0;
+  background-color: #6c757d;
+  transition: all .3s ease-in-out;
+}
+#about .col-12 .spec-btn-r:hover {
+  background-color: #daa66f;
+}
+#about .col-7 {
+  height: 500px;
+  background-color: #353535;
+}
